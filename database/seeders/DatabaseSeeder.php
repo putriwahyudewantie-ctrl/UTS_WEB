@@ -13,9 +13,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Default admin user for login
+        // User default untuk login sesuai permintaan
         User::firstOrCreate(
-            ['email' => 'admin@gmail.com'],
+            ['email' => 'dewanti@gmail.com'],
             [
                 'name' => 'Putri Wahyu Dewantie',
                 'password' => Hash::make('admin123'),
